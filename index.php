@@ -65,19 +65,23 @@
       </div>
     </section>
   </main>
-  <section class="container">
-    <div class="about">
-      <div class="about-image">
-        <img src="https://i1.sndcdn.com/artworks-000050529227-u7v7rj-t500x500.jpg" alt="">
-      </div>
-      <div class="about-content">
-        <h2>Sobre mim</h2>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem, suscipit nam alias enim perferendis
-          optio quidem</p>
-      </div>
-      <dotlottie-player src="https://lottie.host/83d45939-4cc3-493b-83c1-62c8df4efaac/qoWK0CWIgn.lottie"
-        background="transparent" speed="1" style="width: 50vw; height: 50svh; margin-left: 1.5rem;" loop
-        autoplay></dotlottie-player>
+  <section class="container about">
+    <div class="about-image">
+      <img src="https://i1.sndcdn.com/artworks-000050529227-u7v7rj-t500x500.jpg" alt="">
+    </div>
+    <div class="about-content">
+      <h2>Sobre mim</h2>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem, suscipit nam alias enim perferendis
+        optio quidem</p>
+    </div>
+    <dotlottie-player src="https://lottie.host/83d45939-4cc3-493b-83c1-62c8df4efaac/qoWK0CWIgn.lottie"
+      background="transparent" speed="1" style="width: 50vw; height: 50svh; margin-left: 1.5rem;" loop
+      autoplay></dotlottie-player>
+  </section>
+  <section class="container bg-dark diferences">
+    <div class="card">
+      <div class="card-content"></div>
+      <div class="card-icon"></div>
     </div>
   </section>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
