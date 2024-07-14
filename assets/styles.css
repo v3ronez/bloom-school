@@ -1,0 +1,119 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body {
+        background-color:  #fdfdfd;
+    }
+    img {
+        object-fit: contain;
+        height: 100%;
+        width: 100%;
+    }
+
+    :root {
+        --primary: #003366;
+        --white: #fdfdfd;
+        --secondary: #66CC99;
+        --yellow: #FFCC00;
+        --pink: #D14081;
+    }
+
+    h1, h2, h3 {
+        font-family: "Poppins", sans-serif;
+        font-style: normal;
+    }
+
+    h1 {
+        font-family: "Poppins", sans-serif;
+        font-size: 2rem;
+        text-align: center;
+        font-weight: bold;
+        font-style: normal;
+        color: var(--pink);
+    }
+
+    .hero {
+        background:var(--primary)
+    }
+    .hero p {
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: var(--white);
+    }
+
+    .header {
+        background: var(--primary);
+        color: var(--white);
+    }
+
+    .header a {
+        color: var(--white);
+    }
+
+    .container {
+        padding: 1.3rem;
+        margin: auto;
+        height: 100svh;
+        width: 100vw;
+    }
+
+
+    .image-hero {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .image-hero h1 {
+        padding-bottom: 2em;
+    }
+
+    .button-34 {
+        background: var(--secondary);
+        border-radius: 999px;
+        box-shadow: var(--secondary) 0 10px 20px -10px;
+        box-sizing: border-box;
+        color: #FFFFFF;
+        cursor: pointer;
+        font-family: Inter, Helvetica, "Apple Color Emoji", "Segoe UI Emoji", NotoColorEmoji, "Noto Color Emoji", "Segoe UI Symbol", "Android Emoji", EmojiSymbols, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", sans-serif;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 24px;
+        opacity: 1;
+        outline: 0 solid transparent;
+        padding: 12px 45px;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+        width: fit-content;
+        word-break: break-word;
+        border: 0;
+    }
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    background-color: var(--white);
+}
+
+.about-image {
+    width: 35vw;
+    
+}
+.about-image img {
+    border-radius: 9999px;
+    border: 5px solid var(--pink);
+}
+.about-content h2 {
+    font-size: 1.5rem;
+}
+.about-content p {
+    font-size: 1rem;
+}
